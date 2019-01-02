@@ -36,9 +36,8 @@
 }
 .container header .logo-text .logo {
   float: right;
-  padding-top: 22px;
+  padding: 22px 0 0 22px;
   font-size: 25px;
-  padding-left: 22px;
   letter-spacing: 3px;
 }
 .container header .logo-text .logo span {
@@ -71,11 +70,12 @@
   font-size: 28px;
 }
 .container main {
-  width: 900px;
+  width: 1000px;
   margin: auto;
 }
 .container main .supper-main {
   height: 300px;
+  display: flex;
 }
 .container main .supper-main img {
   width: 30px;
@@ -86,19 +86,21 @@
   width: 404px;
   margin-left: 5px;
   float: left;
-  margin-right: 46px;
+  margin-right: 130px;
 }
 .container main .supper-main .supper-right ul {
   margin-left: 5px;
   font-size: 18px;
 }
 .container main .supper-main .supper-right li {
+  padding-bottom: 10px;
   text-decoration: none;
   list-style-type: none;
 }
 .container main .supper-main .supper-left {
   width: 440px;
   float: left;
+  line-height: 25px;
 }
 .container main .supper-main .supper-left p {
   font-size: 18px;
@@ -108,16 +110,29 @@
   display: flex;
 }
 .container main .hero-main .hero-content {
+  position: relative;
   flex: 1;
 }
-.container main .hero-main .hero-content:nth-child(1) {
-  border-right: 3px solid #c0bfbf;
+.container main .hero-main .hero-content:nth-child(1):after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 19px;
+  width: 2px;
+  height: 76%;
+  background: #c0bfbf;
 }
-.container main .hero-main .hero-content:nth-child(2) {
-  border-right: 3px solid #c0bfbf;
+.container main .hero-main .hero-content:nth-child(2):after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 19px;
+  width: 2px;
+  height: 76%;
+  background: #c0bfbf;
 }
 .container main .hero-main .hero-content .hero-text {
-  padding: 0 35px;
+  padding: 0 25px;
 }
 .container main .hero-main .hero-content .hero-text-one {
   padding-left: 20px;
@@ -126,7 +141,7 @@
   text-align: center;
 }
 .container main .hero-main .hero-content .title-main img {
-  width: 70px;
+  width: 80px;
   height: 90px;
   margin-bottom: 15px;
 }
@@ -152,9 +167,8 @@ footer .footer-right {
 footer .footer-right .footer-content {
   font-size: 18px;
   color: white;
-  padding-top: 110px;
+  padding: 110px 150px 0 0;
   float: right;
-  padding-right: 150px;
 }
 footer .footer-right .icon-one {
   bottom: 75px;
@@ -172,12 +186,9 @@ footer .footer-text img {
   width: 28px;
 }
 footer .footer-text .footer-content-text {
-  padding-left: 35px;
+  padding: 109px 0 0 35px;
   font-size: 18px;
   color: white;
-  padding-top: 109px;
-  float: right;
-  padding-right: -26px;
   float: left;
 }
 
