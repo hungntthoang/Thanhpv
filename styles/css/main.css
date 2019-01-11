@@ -9,16 +9,16 @@
 .container {
   position: relative;
   width: 1140px;
-  height: 1620px;
+  height: 1700px;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("file:///C:/Users/Administrator/Desktop/project_base3/image/menu.jpg");
+  background-image: url("../img/menu.jpg");
 }
 .container header {
-  height: 670px;
+  height: 715px;
 }
 .container header .logo-text {
   color: white;
@@ -65,16 +65,16 @@
   color: #da1e35;
 }
 .container .supper-text {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   color: #da1e35;
-  font-size: 28px;
+  font-size: 29px;
 }
 .container main {
   width: 1000px;
   margin: auto;
 }
 .container main .supper-main {
-  height: 300px;
+  height: 387px;
   display: flex;
 }
 .container main .supper-main img {
@@ -83,17 +83,18 @@
   padding-right: 5px;
 }
 .container main .supper-main .supper-right {
-  width: 404px;
+  word-spacing: 5px;
+  width: 477px;
   margin-left: 5px;
   float: left;
-  margin-right: 130px;
+  margin-right: 80px;
 }
 .container main .supper-main .supper-right ul {
   margin-left: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .container main .supper-main .supper-right li {
-  padding-bottom: 10px;
+  padding-bottom: 22px;
   text-decoration: none;
   list-style-type: none;
 }
@@ -103,10 +104,13 @@
   line-height: 25px;
 }
 .container main .supper-main .supper-left p {
-  font-size: 18px;
+  text-align: justify;
+  font-size: 20px;
 }
 .container main .hero-main {
-  height: 430px;
+  font-size: 18px;
+  text-align: justify;
+  height: 395px;
   display: flex;
 }
 .container main .hero-main .hero-content {
@@ -119,7 +123,7 @@
   right: 0;
   top: 19px;
   width: 2px;
-  height: 76%;
+  height: 82%;
   background: #c0bfbf;
 }
 .container main .hero-main .hero-content:nth-child(2):after {
@@ -128,25 +132,37 @@
   right: 0;
   top: 19px;
   width: 2px;
-  height: 76%;
+  height: 82%;
   background: #c0bfbf;
 }
-.container main .hero-main .hero-content .hero-text {
+.container main .hero-main .hero-content .hero-text-one {
+  word-spacing: 8px;
+  padding: 0 25px 0 0;
+}
+.container main .hero-main .hero-content .hero-text-two {
   padding: 0 25px;
 }
-.container main .hero-main .hero-content .hero-text-one {
+.container main .hero-main .hero-content .hero-text-three {
+  word-spacing: 8px;
   padding-left: 20px;
 }
 .container main .hero-main .hero-content .title-main {
   text-align: center;
 }
 .container main .hero-main .hero-content .title-main img {
-  width: 80px;
-  height: 90px;
   margin-bottom: 15px;
 }
-.container main .hero-main .hero-content p {
-  font-size: 17px;
+.container main .hero-main .hero-content .title-main .icon-one {
+  width: 80px;
+  height: 90px;
+}
+.container main .hero-main .hero-content .title-main .icon-two {
+  width: 100px;
+  height: 90px;
+}
+.container main .hero-main .hero-content .title-main .icon-three {
+  width: 80px;
+  height: 90px;
 }
 .container main .hero-main .hero-center {
   flex: 1;
@@ -167,7 +183,7 @@ footer .footer-right {
 footer .footer-right .footer-content {
   font-size: 18px;
   color: white;
-  padding: 110px 150px 0 0;
+  padding: 98px 150px 0 0;
   float: right;
 }
 footer .footer-right .icon-one {
@@ -181,12 +197,12 @@ footer .footer-text {
   flex: 1;
 }
 footer .footer-text img {
-  bottom: 70px;
+  bottom: 88px;
   position: absolute;
   width: 28px;
 }
 footer .footer-text .footer-content-text {
-  padding: 109px 0 0 35px;
+  padding: 95px 0 0 35px;
   font-size: 18px;
   color: white;
   float: left;

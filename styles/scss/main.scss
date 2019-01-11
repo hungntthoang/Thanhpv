@@ -9,17 +9,17 @@
 .container {
 	position: relative;
 	width: 1140px;
-	height: 1620px;
+	height: 1700px;
 	margin : auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url('file:///C:/Users/Administrator/Desktop/project_base3/image/menu.jpg');
+	background-image: url('../img/menu.jpg');
 
 	//----------- header ------------ //
 	header {
-		height: 670px;
+		height: 715px;
 		.logo-text {
 			color: white;
 			position: absolute;
@@ -74,16 +74,16 @@
 	
 	//----------- main ------------ //
 	.supper-text {
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 		color: #da1e35;
-		font-size: 28px;
+		font-size: 29px;
 	}
 
 	main {
 		width: 1000px;
 		margin :auto;
 		.supper-main {
-			height: 300px;
+			height: 387px;
 			display: flex;
 			img {
 				width: 30px;
@@ -92,17 +92,18 @@
 			}
 
 			.supper-right {
-				width: 404px;
-				margin-left: 5px;
-				float: left;
-				margin-right: 130px;
+				word-spacing: 5px;
+			    width: 477px;
+			    margin-left: 5px;
+			    float: left;
+			    margin-right: 80px;
 				ul {
 					margin-left: 5px;
-					font-size: 18px;
+					font-size: 20px;
 				}
 
 				li {
-					padding-bottom: 10px;
+					padding-bottom: 22px;
 					text-decoration: none;
 					list-style-type: none;
 				}
@@ -113,12 +114,15 @@
 				float: left;
 				line-height: 25px;
 				p {
-					font-size: 18px;
+					text-align: justify;
+					font-size: 20px;
 				}
 			}
 		}
 		.hero-main {
-			height: 430px;
+			font-size: 18px;
+			text-align: justify;
+			height: 395px;
 			display: flex;
 			.hero-content {
 				position: relative;
@@ -129,7 +133,7 @@
 				    right: 0;
 				    top: 19px;
 				    width: 2px;
-				    height: 76%;
+				    height: 82%;
 				    background: #c0bfbf;
 				}
 
@@ -139,28 +143,41 @@
 				    right: 0;
 				    top: 19px;
 				    width: 2px;
-				    height: 76%;
+				    height: 82%;
 				    background: #c0bfbf;
-				}
-				
-				.hero-text {
-					padding: 0 25px;
 				}
 
 				.hero-text-one {
+					word-spacing: 8px;
+					padding: 0 25px 0 0;
+				}
+				
+				.hero-text-two {
+					padding: 0 25px;
+				}
+
+				.hero-text-three {
+					word-spacing: 8px;
 					padding-left: 20px;
 				}
 
 				.title-main {
 					text-align: center;
 					img {
-						width: 80px;
-						height: 90px;
 						margin-bottom: 15px;
 					}
-				}
-				p {
-					font-size: 17px;
+					.icon-one {
+						width: 80px;
+						height: 90px;
+					}
+					.icon-two {
+						width: 100px;
+						height: 90px;
+					}
+					.icon-three {
+						width: 80px;
+						height: 90px;
+					}
 				}
 			}
 			.hero-center {
@@ -186,7 +203,7 @@ footer {
 		.footer-content {
 			font-size: 18px;
 		    color: white;
-		    padding: 110px 150px 0 0;
+		    padding: 98px 150px 0 0;
 		    float: right;
 		}
 
@@ -202,12 +219,12 @@ footer {
 		position: relative;
 		flex: 1;
 		img {
-			bottom: 70px;
+			bottom: 88px;
 		    position: absolute;
 		    width: 28px;
 		}
 		.footer-content-text {
-			padding: 109px 0 0 35px; 
+			padding: 95px 0 0 35px; 
 		    font-size: 18px;
 		    color: white;
 		    float: left;
